@@ -1,0 +1,4 @@
+.corpo-container{
+    background-color: blue;
+    min-height: calc(100vh - 70px);
+}

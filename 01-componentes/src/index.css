@@ -1,0 +1,12 @@
+/*Sempre que alguém perguntar qual é o css original, me chama*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    /* background-color: crimson; */
+    min-height: 100vh;
+}

@@ -8,8 +8,10 @@ function Corpo() {
   return (
     <div className='corpo-container'> 
         <Titulo/>
-        <Titulo2/>
+        <Titulo2 texto={"Primeiro pedaço de página"} emoji={"😎"}/>
         <Texto/>
+
+        <Titulo2 texto={"Segundo pedaço de página"} emoji={"💻"}/>
         <Textao/>
     </div>
   )

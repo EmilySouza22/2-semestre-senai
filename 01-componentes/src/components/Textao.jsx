@@ -1,4 +1,4 @@
-import './Textao.css'
+import React from "react"
 
 function Textao() {
   return (

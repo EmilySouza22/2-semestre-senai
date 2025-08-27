@@ -1,3 +1,7 @@
 html{
     background-color: rgb(40, 39, 39);
 }
+
+:root{
+    --cor-fonte: #ddd;
+}

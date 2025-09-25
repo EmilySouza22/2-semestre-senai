@@ -1,12 +1,12 @@
 import './WelcomeSection.css';
-import Billboard from './Billboard';
+import Owner from './Owner';
 
 function WelcomeSection() {
 	return (
 		<div className="welcSec-container-main">
 			<div className='welcSec-container-content'>
 				<div className="welcSec-container-right">
-					<h1 className="welcSec-title-welcomeSection">Seja bem-vindo à Farmárcia</h1>
+					<h1 className="welcSec-title-welcomeSection">Seja bem-vindo à <strong>Farmárcia</strong></h1>
 					<p className="welcSec-text-welcomeSection">
 						A Farmárcia inicia hoje um novo capítulo em sua longa história de 86 anos. Sob nova
 						direção, o espaço foi totalmente renovado para receber você e toda sua
@@ -14,7 +14,7 @@ function WelcomeSection() {
 					</p>
 				</div>
 				<div className="welcSec-container-left">
-					<Billboard />
+					<Owner/>
 				</div>
 			</div>
 		</div>

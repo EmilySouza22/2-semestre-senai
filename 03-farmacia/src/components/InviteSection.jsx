@@ -58,7 +58,7 @@ function InviteSection() {
 							<img
 								src={fotoCamiseta}
 								alt="camiseta"
-								className="foto-camiseta"
+								className="foto-promocional"
 							/>
 							<img
 								src={fotoCamisetas}

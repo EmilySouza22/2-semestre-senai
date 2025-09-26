@@ -15,12 +15,12 @@ strong {
 	-webkit-text-fill-color: transparent;
 }
 
-* {
-	color: var(--cor-2);
+h2,h1{
+    color: var(--cor-2);
 }
 
 .invSec-container-main {
-	height: 160vh;
+	height: 150vh;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -50,7 +50,7 @@ strong {
 .invSec-container-inauguracao{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 50%;
 }
 
 .invSec-container-right {
@@ -58,7 +58,7 @@ strong {
 	flex-direction: column;
 	width: 50%;
 	height: 100%;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -117,28 +117,33 @@ strong {
 
 .invSec-inauguracao-imagens {
 	width: 50%;
+    height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-    justify-content: center;
 }
 
-.foto-camiseta {
-	width: 220px;
-	height: 160px;
+.foto-promocional {
+	width: 360px;
+	height: 240px;
 }
 
 ul {
 	font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 li{
     color: #e6e6e6;
+    width: 80%;
 }
 
 .invSec-text{
     color: #e6e6e6;
     font-size: 20px;
-    width: 68%;
+    width: 70%;
 }

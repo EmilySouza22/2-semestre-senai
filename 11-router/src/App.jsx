@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Home from './pages/Home'
 import Pagina1 from './pages/Pagina1'
@@ -9,10 +8,10 @@ function App() {
 
   return (
     <>
-      <Home/>
+      {/* <Home/>
       <Pagina1/>
       <Pagina2/>
-      <Pagina3/>
+      <Pagina3/> */}
     </>
   )
 }

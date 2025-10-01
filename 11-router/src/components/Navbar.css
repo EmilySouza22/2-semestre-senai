@@ -1,0 +1,12 @@
+/*Adicionando o minimo de css na navbar*/
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.navbar a {
+	text-decoration: none; /*Para tirar o visual do link*/
+}

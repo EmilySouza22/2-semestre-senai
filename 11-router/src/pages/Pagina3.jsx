@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Pagina1() {
+function Pagina3() {
   return (
-    <div>Pagina1</div>
+    <div>Pagina3</div>
   )
 }
 
-export default Pagina1
+export default Pagina3

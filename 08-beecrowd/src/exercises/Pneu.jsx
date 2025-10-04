@@ -13,7 +13,6 @@ indica a diferença entre a pressão desejada e a pressão lida.
 
 */
 
-
 /*
 
 - Entrada
@@ -28,9 +27,22 @@ Ex:
 Entrada=30,18
 Saida=12
 */
+import React, { useState } from 'react';
 
-function Pneu() {
-	return <div>Pneu</div>;
+function BombaDeAr() {
+	const [desejada, setDesejada] = useState('');
+    const [lida, setLida] = useState('');
+    const [diferenca, setDiferenca] = useState();
+    
+    function calcularValor(){
+        const resultado = desejada - lida
+        setDiferenca(resultado);
+    }
+
+    return (
+        <div className='container'>
+        </div>
+    )
 }
 
-export default Pneu;
+export default BombaDeAr;

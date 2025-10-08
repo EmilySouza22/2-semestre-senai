@@ -6,6 +6,11 @@ function Home() {
 		<div>
 			<Navbar />
 			<h1>Home</h1>
+
+			<input type="text" />
+			<div>
+				<p>exemplo</p>
+			</div>
 		</div>
 	);
 }

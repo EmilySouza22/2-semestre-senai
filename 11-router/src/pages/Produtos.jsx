@@ -1,0 +1,24 @@
+import { useContext } from 'react'
+import { useState } from 'react'
+import Navbar from '../components/Navbar'
+import { GlobalContext } from '../contexts/GlobalContext'
+
+function Produtos() {
+    const { produto, produtos } = useContext(GlobalContext)
+
+    function trocarProduto(){
+        let novo = prompt('Novo nome:')
+        setProduto(novo)
+    }
+
+  return (
+    <div>
+        <Navbar/>
+        <h1>Produtos</h1>
+        produtos, produtos, produtos, {produto}, {produtos[0].nome}, {produtos[1].nome}
+        <button onClick={trocarProduto}></button>
+    </div>
+  )
+}
+
+export default Produtos

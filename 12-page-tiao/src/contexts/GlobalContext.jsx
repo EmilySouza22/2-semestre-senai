@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { createContext, useState } from 'react';
 
 export const GlobalContext = createContext();
 
@@ -41,5 +41,11 @@ export const GlobalContextProvider = ({children}) => {
         { id: 9, nome: 'Amendoim torrado', valor: 5.00 },
         { id: 10, nome: 'Energético', valor: 12.00 }
     ])
+
+    return (
+		<GlobalContext.Provider value={{ servico, produtoSorveteria, produtoBar }}>
+			{children}
+		</GlobalContext.Provider>
+	);
 }
 

@@ -1,10 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { createRoot } from 'react-dom/client';
+import { RouterProvider } from 'react-router-dom';
+import router from './router/Routes';
+import { StrictMode } from 'react';
+import { GlobalContextProvider } from './contexts/GlobalContext';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+	<GlobalContextProvider>
+		<StrictMode>
+			<RouterProvider router={router}>
+				{/*Aqui vai ficar a pagina carregada*/}
+			</RouterProvider>
+		</StrictMode>
+	</GlobalContextProvider>
+);

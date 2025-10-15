@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "crud_aula",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
